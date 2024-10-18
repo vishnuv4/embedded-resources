@@ -41,5 +41,5 @@ Forums are a great resource to get information from people in the industry. The 
 - [A guide on coding Finite State Machines](https://www.embeddedrelated.com/showarticle/543.php)
     - Here's another nice one: [How to code a state machine on C or C++](https://barrgroup.com/blog/how-code-state-machine-c-or-c)
 - [An important idea in embedded systems](https://www.embeddedrelated.com/showarticle/1690.php)
-    - The article itself doesn't have much information - but it conveys a lens through which to look at code that's very important to embedded firmware.
+    - The article itself is brief, but important - it conveys a lens through which to look at code that's very important to embedded firmware.
     - For example: [++i and i++ : what’s the difference?](https://www.embeddedrelated.com/showarticle/1629.php)
