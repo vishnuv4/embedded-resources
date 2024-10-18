@@ -1,6 +1,6 @@
 # Embedded Resources
 
-The aim of this repository is to collect all the cool stuff I've come across on the internet related to embedded systems. I like reading and I like embedded systems, so it makes sense that I would keep a repository of reading material related to embedded systems.
+The aim of this repository is to collect all the cool stuff I've come across on the internet related to embedded systems. I like reading and I like embedded systems, so it makes sense that I would maintain a repository of reading material related to embedded systems.
 
 ## Roadmaps/Compilations:
 
