@@ -1,1 +1,0 @@
-Start-Process "https://github.com/vishnuv4/embedded-resources?tab=readme-ov-file"
