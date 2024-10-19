@@ -21,6 +21,11 @@ Forums are a great resource to get information from people in the industry. The 
 - [Beningo Group blog](https://www.beningo.com/blog/)
 - [Barr Group's How-To guides](https://barrgroup.com/embedded-systems/how-to/articles)
 
+## Books
+
+- [Debugging](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578)
+    - One of my all time top recommendations. Gives you some principles to follow while debugging embedded systems.
+
 ## Interview Prep
 
 - [Crushing the Firmware & Embedded Systems Interview | Medium](https://medium.com/@akashagrawal_33749/cracking-the-firmware-embedded-systems-engineer-interview-d73a37da95bd)
