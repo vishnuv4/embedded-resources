@@ -1,6 +1,6 @@
 # Embedded Resources
 
-The aim of this repository is to collect all the cool stuff I've come across on the internet related to embedded systems. I like reading and I like embedded systems, so it makes sense that I would maintain a repository of reading material related to embedded systems.
+The aim of this repository is to collect all the cool stuff I've come across on the internet related to embedded systems. I like reading and I like embedded systems, so it makes sense that I would maintain a repository of (mostly) reading material related to embedded systems. There are also some videos that I've found useful.
 
 ## Roadmaps/Compilations:
 
@@ -23,10 +23,20 @@ Forums are a great resource to get information from people in the industry. The 
 
 ## Videos
 
-### PCB Design
+### Embedded Software
+
+- [Tricky Parts of Embedded given at IEEE-CS (SiliconValley): Elecia White](https://www.youtube.com/watch?v=I-G669hAL2M)
+- [Buried Treasure and Map Files: Elecia White](https://www.youtube.com/watch?v=XRXLUcbJIxY)
+    - An amazing video by an embedded software legend on how to understand and use map files to debug some tricky embedded bugs.
+    - Resources and graphics for the talk are available on the accompanying [Embedded.fm page](https://embedded.fm/blog/mapfiles)
+- [Writing better embedded Software - Dan Saks - Keynote Meeting Embedded 2018](https://www.youtube.com/watch?v=3VtGCPIoBfs)
+    - This talk focuses a lot on C++. However, the underlying principles are what we need to pay attention to.
+- [](https://www.youtube.com/watch?v=JChTishaqQM)
+
+### PCB Design, Circuits
 
 - [How to Achieve Proper Grounding: Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)
-    - An amazing webinar that completely shifts your perspective on what ground is, starting from EM theory.
+    - An amazing webinar that completely changed the way I see the humble ground.
 - [What Every PCB Designer Should Know - Return Current Path: Robert Feranec, Eric Bogatin](https://www.youtube.com/watch?v=icRzEZF3eZo)
 - [What Every PCB Designer Should Know - Crosstalk Explained: Robert Feranec, Eric Bogatin](https://www.youtube.com/watch?v=EF7SxgcDfCo)
 - [EEVblog #279 - How NOT To Blow Up Your Oscilloscope!](https://www.youtube.com/watch?v=xaELqAo4kkQ)
@@ -35,6 +45,8 @@ Forums are a great resource to get information from people in the industry. The 
 
 ## Books
 
+- [Making Embedded Systems: Design Patterns for Great Software: Elecia White](https://www.amazon.com/Making-Embedded-Systems-Patterns-Software/dp/1098151542/ref=sr_1_1?crid=1X9EMQ4QM4JYE&dib=eyJ2IjoiMSJ9.cJD-fub3W8rCFgU7dV_WfXK48c5NoL0RlZEdZFcrDIt4jIMxp_oUV4kWxFk9AYdofKgLWLXedgzpTPNJXbFbtWXcRyfoPx4CB6K_P04cJzF4rikoV4-lZuT9DzEJbva6uj9rbIb6GGYAVDlF_MysHxbOktGWPMdc6I64tGwatUfrt7CVdr59nlbVS3iAcsrzKrdsB0NexrC5GJhVhCgUGqGuFZBd7bD8Ww97zWvARXI.QjoCvdAikEwp15tOhMNiISnbi5lxegF5S-DOCmwwCzY&dib_tag=se&keywords=making+embedded+systems&qid=1729913168&sprefix=making+embed%2Caps%2C100&sr=8-1)
+    - A classic. At least the first 4 chapters are a must-read.
 - [Debugging: David J. Agans](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578)
     - One of my all time top recommendations. Gives you some principles to follow while debugging embedded systems.
 - [Better Embedded System Software: Philip Koopman](https://www.amazon.com/Better-Embedded-System-Software-Koopman/dp/B08TZ9LYXC)
@@ -55,20 +67,25 @@ Forums are a great resource to get information from people in the industry. The 
 - [Crushing the Firmware & Embedded Systems Interview | Medium](https://medium.com/@akashagrawal_33749/cracking-the-firmware-embedded-systems-engineer-interview-d73a37da95bd)
 - [Cracking the (embedded) Coding Interview - Manasi Rajan](https://www.embeddedrelated.com/showarticle/1503.php)
 - [How to use bit manipulation to solve problems easily and efficiently | LeetCode](https://leetcode.com/problems/sum-of-two-integers/solutions/84278/a-summary-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently/?orderBy=most_votes)
-- [A ‘C’ Test: The 0x10 Best Questions for Would-be Embedded Programmers | RMB Consulting](https://rmbconsulting.us/publications/a-c-test-the-0x10-best-questions-for-would-be-embedded-programmers/)
+- [A 'C' Test: The 0x10 Best Questions for Would-be Embedded Programmers | RMB Consulting](https://rmbconsulting.us/publications/a-c-test-the-0x10-best-questions-for-would-be-embedded-programmers/)
 
 ## Tutorials
 
 - [Introduction to Microcontrollers](https://www.embeddedrelated.com/showarticle/453.php)
-    - A very well-written introduction to microcontrollers written by Mike Silva. Covers many core ideas, and reads like a story. There are 14 parts, and all are worth a read.
+    - A comprehensive 14-part intro. The sections on interrupts and timers is worth a read, at least.
 - [Important Programming Concepts](https://www.embeddedrelated.com/showarticle/629.php)
-    - These are all CS topics that are arguably more important for embedded devices compared to laptops or more powerful compute machines.
+    - Some concepts from CS that are relevant to embedded systems
+- [You Don't Need an RTOS](https://www.embeddedrelated.com/showarticle/1636.php)
+    - When do you need an RTOS?
+- [Diving into JTAG](https://interrupt.memfault.com/blog/diving-into-jtag-part1)
 
 ## Miscellaneous
 
-- [Information on the volatile keyword](https://www.embeddedrelated.com/showarticle/1650.php)
-- [A guide on coding Finite State Machines](https://www.embeddedrelated.com/showarticle/543.php)
+- [The volatile keyword](https://www.embeddedrelated.com/showarticle/1650.php)
+- [Implementing State Machines](https://www.embeddedrelated.com/showarticle/543.php)
+    - How you implement them in code
     - Here's another nice one: [How to code a state machine on C or C++](https://barrgroup.com/blog/how-code-state-machine-c-or-c)
-- [An important idea in embedded systems](https://www.embeddedrelated.com/showarticle/1690.php)
-    - The article itself is brief, but important - it conveys a lens through which to look at code that's very important to embedded firmware.
-    - For example: [++i and i++ : what’s the difference?](https://www.embeddedrelated.com/showarticle/1629.php)
+- [Small or fast?](https://www.embeddedrelated.com/showarticle/1690.php)
+    - Conveys a lens through which to look at code that's very important to embedded firmware.
+    - For example: [++i and i++ : what's the difference?](https://www.embeddedrelated.com/showarticle/1629.php)
+- [A Schematic Review Checklist for Firmware Engineers](https://interrupt.memfault.com/blog/schematic-review-checklist)
