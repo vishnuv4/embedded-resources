@@ -23,10 +23,10 @@ Forums are a great resource to get information from people in the industry. The 
 
 ## Videos
 
-### PCB Design
+### PCB Design, Circuits
 
 - [How to Achieve Proper Grounding: Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)
-    - An amazing webinar that completely shifts your perspective on what ground is, starting from EM theory.
+    - An amazing webinar that completely changed the way I see the humble ground.
 - [What Every PCB Designer Should Know - Return Current Path: Robert Feranec, Eric Bogatin](https://www.youtube.com/watch?v=icRzEZF3eZo)
 - [What Every PCB Designer Should Know - Crosstalk Explained: Robert Feranec, Eric Bogatin](https://www.youtube.com/watch?v=EF7SxgcDfCo)
 - [EEVblog #279 - How NOT To Blow Up Your Oscilloscope!](https://www.youtube.com/watch?v=xaELqAo4kkQ)
@@ -66,9 +66,10 @@ Forums are a great resource to get information from people in the industry. The 
 
 ## Miscellaneous
 
-- [Information on the volatile keyword](https://www.embeddedrelated.com/showarticle/1650.php)
-- [A guide on coding Finite State Machines](https://www.embeddedrelated.com/showarticle/543.php)
+- [The volatile keyword](https://www.embeddedrelated.com/showarticle/1650.php)
+- [Implementing State Machines](https://www.embeddedrelated.com/showarticle/543.php)
+    - We all understand the importance of state machines - this guide shows you how to implement it in code.
     - Here's another nice one: [How to code a state machine on C or C++](https://barrgroup.com/blog/how-code-state-machine-c-or-c)
-- [An important idea in embedded systems](https://www.embeddedrelated.com/showarticle/1690.php)
+- [Small or fast?](https://www.embeddedrelated.com/showarticle/1690.php)
     - The article itself is brief, but important - it conveys a lens through which to look at code that's very important to embedded firmware.
     - For example: [++i and i++ : what’s the difference?](https://www.embeddedrelated.com/showarticle/1629.php)
