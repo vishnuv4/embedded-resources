@@ -16,7 +16,7 @@ Forums are a great resource to get information from people in the industry. The 
 
 - [Embedded Artistry](https://embeddedartistry.com/)
 - [Embedded Related](https://www.embeddedrelated.com/)
-- [Interrupt by Memfault](https://interrupt.memfault.com/blog/)
+- [The Interrupt by Memfault](https://interrupt.memfault.com/blog/)
 - [Embedded.fm](https://embedded.fm/)
 - [Beningo Group blog](https://www.beningo.com/blog/)
 - [Barr Group's How-To guides](https://barrgroup.com/embedded-systems/how-to/articles)
@@ -48,6 +48,13 @@ Forums are a great resource to get information from people in the industry. The 
     - A comprehensive 14-part intro. The sections on interrupts and timers is worth a read, at least.
 - [Important Programming Concepts](https://www.embeddedrelated.com/showarticle/629.php)
     - Some concepts from CS that are relevant to embedded systems
+- [I2C Communication Protocol: Understanding I2C Primer, PMBus, and SMBus](https://www.analog.com/en/resources/analog-dialogue/articles/i2c-communication-protocol-understanding-i2c-primer-pmbus-and-smbus.html)
+    - One of the best primers I've come across for I2C, I've referenced this on multiple occasions.
+    - As an add-on, this article [[Resolving I2C Address Conflicts](https://embeddedartistry.com/blog/2021/08/02/resolving-i2c-address-conflicts/)] is a succint compilation of ways you can deal with I2C address conflicts.
+    - Another good resource: [I2C in a Nutshell](https://interrupt.memfault.com/blog/i2c-in-a-nutshell)
+- [A Guide to Undefined Behavior in C and C++](https://blog.regehr.org/archives/213)
+    - One of those things that no one likes to talk about. But a big part of writing "good code" involves eliminating these undefined behaviors.
+    - [What Every C Programmer Should Know About Undefined Behavior](https://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html) is also a great read
 - [You Don't Need an RTOS](https://www.embeddedrelated.com/showarticle/1636.php)
     - When do you need an RTOS?
 - [Diving into JTAG](https://interrupt.memfault.com/blog/diving-into-jtag-part1)
@@ -69,7 +76,8 @@ Forums are a great resource to get information from people in the industry. The 
     - Resources and graphics for the talk are available on the accompanying [Embedded.fm page](https://embedded.fm/blog/mapfiles)
 - [Writing better embedded Software - Dan Saks - Keynote Meeting Embedded 2018](https://www.youtube.com/watch?v=3VtGCPIoBfs)
     - This talk focuses a lot on C++. However, the underlying principles are what we need to pay attention to.
-- [](https://www.youtube.com/watch?v=JChTishaqQM)
+- [Why - Linker script? | Assembly, C on Bare-metal RISC-V](https://www.youtube.com/watch?v=awoFXTMjx9o)
+    - A good video on linker scripts and when we would want to write them
 
 ### PCB Design, Circuits
 
@@ -83,11 +91,42 @@ Forums are a great resource to get information from people in the industry. The 
 
 ## Miscellaneous
 
+- [A General Overview of What Happens Before main()](https://embeddedartistry.com/blog/2019/04/08/a-general-overview-of-what-happens-before-main/)
+  - For most acolytes of the CS path, life begins at main(). For embedded engineers, it starts before that - right from the time the device is powered on. This is a wonderful model of how to understand all the mechanisms by which code execution ends up at main().
+- [The Ten Commandments for C Programmers
+(Annotated Edition)](https://www.lysator.liu.se/c/ten-commandments.html)
 - [The volatile keyword](https://www.embeddedrelated.com/showarticle/1650.php)
 - [Implementing State Machines](https://www.embeddedrelated.com/showarticle/543.php)
     - How you implement them in code
     - Here's another nice one: [How to code a state machine on C or C++](https://barrgroup.com/blog/how-code-state-machine-c-or-c)
 - [Small or fast?](https://www.embeddedrelated.com/showarticle/1690.php)
-    - Conveys a lens through which to look at code that's very important to embedded firmware.
+    - Conveys a lens through which to look at code that's very important to professional embedded firmware
     - For example: [++i and i++ : what's the difference?](https://www.embeddedrelated.com/showarticle/1629.php)
 - [A Schematic Review Checklist for Firmware Engineers](https://interrupt.memfault.com/blog/schematic-review-checklist)
+- [Size Optimization Tricks](https://justine.lol/sizetricks/#decentralized-sections)
+    - Again, something every professional embedded engineer should be thinking about
+- [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
+    - A deep dive into how C structures are organized in memory
+    - [C Structure Padding Initialization](https://interrupt.memfault.com/blog/c-struct-padding-initialization): Also a good resource for the same thing
+- [On finding the average of two unsigned integers without overflow](https://devblogs.microsoft.com/oldnewthing/20220207-00/?p=106223)
+    - So you thought finding the average of two numbers was easy? W R O N G. This is a reminder of how overflow errors and C types are nuances that shouldn't be ignored.
+- [My guiding principles after 20 years of programming](https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c)
+    - Life advice. Point 8 and 9 might be the most important things I've learned over the last three years.
+- [Engineering Lessons I’ve Learned from Working at the Japanese Tea Garden](https://embeddedartistry.com/blog/2020/04/20/engineering-lessons-ive-learned-from-working-at-the-japanese-tea-garden/)
+    - More life advice. A lot of this is relevant only when you start working, but it's on point.
+- [Nash's Four Favorite Firmware Debug Tools](https://interrupt.memfault.com/blog/four-favorite-firmware-debug-tools)
+- [u/LongUsername's comment on a reddit thread about the future of embedded engineering](https://old.reddit.com/r/embedded/comments/ru4cjn/deleted_by_user/hqyh6bg/)
+    - Not a single statement I would disagree with here
+- [Jaywalking Around the Compiler](https://www.embeddedrelated.com/showarticle/1310.php)
+    - A reminder not to mess with things that your compiler manages
+- [How to debug a HardFault on an ARM Cortex-M MCU](https://interrupt.memfault.com/blog/cortex-m-hardfault-debug)
+    - If the whole world was made of embedded engineers, hard faults would be an acceptable Halloween costume.
+- [The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
+    - Understanding how to "customize" your compiler to force you to produce code in a certain way is a useful thing to know
+- [Best practices in firmware](https://m0agx.eu/best-practices-in-firmware.html)
+    - Just some general good advice
+- [Demystifying Arm TrustZone: A Comprehensive Survey](https://sandro2pinto.github.io/files/acmcsur2019-tz.pdf)
+- [Inside .git](https://jvns.ca/blog/2024/01/26/inside-git/)
+    - A fantastic exposition on the internals of how git manages its repositories
+    - Related: [How HEAD works in git](https://jvns.ca/blog/2024/03/08/how-head-works-in-git/). Detached heads aren't just a problem in real life, they're also a problem in git repos. 
+    - Related: [Confusing git terminology](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/)
