@@ -106,6 +106,7 @@ Forums are a great resource to get information from people in the industry. The 
 - [A Schematic Review Checklist for Firmware Engineers](https://interrupt.memfault.com/blog/schematic-review-checklist)
 - [Size Optimization Tricks](https://justine.lol/sizetricks/#decentralized-sections)
     - Again, something every professional embedded engineer should be thinking about
+- [Write Better Code with Block Diagrams and Flowcharts](https://www.embeddedrelated.com/showarticle/1685.php#flow)
 - [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
     - A deep dive into how C structures are organized in memory
     - [C Structure Padding Initialization](https://interrupt.memfault.com/blog/c-struct-padding-initialization): Also a good resource for the same thing
