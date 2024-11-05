@@ -19,6 +19,7 @@ Forums are a great resource to get information from people in the industry. The 
 - [The Interrupt by Memfault](https://interrupt.memfault.com/blog/)
     - Every month they put out a "What we've been reading" newsletter with interesting content. Some of the misc links are taken from that. 
 - [Embedded.fm](https://embedded.fm/)
+- [The Embedded Muse](https://www.ganssle.com/tem-back.htm)
 - [Beningo Group blog](https://www.beningo.com/blog/)
 - [Barr Group's How-To guides](https://barrgroup.com/embedded-systems/how-to/articles)
 
