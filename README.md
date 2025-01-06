@@ -4,6 +4,7 @@ The aim of this repository is to collect all the cool stuff I've come across on 
 
 ## Roadmaps/Compilations:
 
+- [Embedded Artistry's Field Atlas](https://embeddedartistry.com/field-atlas/?mc_cid=ed04394931&mc_eid=UNIQID)
 - [m3y54m's Embedded Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap?tab=readme-ov-file)
 - [Embedded Systems Roadmaps - Nathan Jones](https://www.embeddedrelated.com/showarticle/1589.php)
 - [So You Want To Be An Embedded Systems Developer - Steve Branam](https://www.embeddedrelated.com/showarticle/1324.php)
